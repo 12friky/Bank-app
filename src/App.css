@@ -1,0 +1,17 @@
+/* src/App.css */
+.App {
+    text-align: center;
+}
+
+/* src/MobileApp.css */
+.MobileApp {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* src/DesktopMessage.css */
+.DesktopMessage {
+    background-color: #ffcccc;
+    padding: 20px;
+    color: red;
+}
