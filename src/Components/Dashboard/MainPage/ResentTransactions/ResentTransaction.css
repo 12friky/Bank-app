@@ -1,0 +1,79 @@
+.transaction-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: -10%;
+}
+
+.transaction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.transaction-header h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.transaction-search {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.transaction-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.transaction-item:last-child {
+    border-bottom: none;
+}
+
+.transaction-icon {
+    font-size: 22px;
+    margin-right: 10px;
+    /* background: linear-gradient(to right, #0070ba, #00c4ff); */
+    /* color: blue; */
+}
+
+.transaction-details {
+    flex-grow: 1;
+}
+
+.transaction-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.transaction-category {
+    font-size: 16px;
+    color: #888;
+}
+
+.transaction-meta {
+    text-align: right;
+}
+
+.transaction-time {
+    font-size: 12px;
+    color: #888;
+}
+
+.transaction-amount {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}

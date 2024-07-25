@@ -1,0 +1,117 @@
+body{
+        font-family: 'Helvetica Neue', sans-serif;
+}
+.topHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3%;
+    height: 10vh;
+    /* margin-top: 5%; */
+}
+
+.BritishFlag {
+    width: 20px;
+    height: 20px;
+}
+
+.profilePic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Logo {
+    width: 70px;
+    height: 70px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+}
+
+.language p {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.accountInfo {
+    background: linear-gradient(to right, #000000, #6a6a6a);
+    /* background: linear-gradient(to right, #000000, #4668b0); */
+    /* Gradient from dark blue to a lighter blue */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    font-family: 'Helvetica Neue', sans-serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.accountInfo p{
+    font-size: 17px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.creditDebitInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.actionItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #12082c; */
+    background: linear-gradient(to right, #000000, #6a6a6a);
+    /* background: linear-gradient(to right, #0070ba, #00c4ff); */
+    padding: 18px;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        font-family: 'Helvetica Neue', sans-serif;
+}
+.boxItems
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        font-family: 'Helvetica Neue', sans-serif;
+}
+.boxItems p{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.actionItem p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.icons{
+    font-size: 30px;
+}
+
+.myLine
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
